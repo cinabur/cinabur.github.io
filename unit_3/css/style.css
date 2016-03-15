@@ -1,0 +1,15 @@
+body {
+	background-color: #fff;
+}
+
+#slogan {
+	color: #d7061b;
+	font-style: italic;
+	font-family: Georgia, serif;
+	font-size: 36pt;
+}
+#opener {
+	font-family: Verdana, sans-serif;
+	color: #303030;
+	font-size: 18pt;
+}
