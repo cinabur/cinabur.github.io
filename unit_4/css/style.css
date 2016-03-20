@@ -4,6 +4,15 @@ body {
 	background-color: #fff;
 }
 
+h1 {
+	color: #303030;
+	font-family: 'Roboto', sans-serif;
+	font-size: 36pt;
+	font-weight: normal;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
 h2 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 24pt;
@@ -20,24 +29,16 @@ h3 {
 }
 
 p {
-	font-family: Verdana, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14pt;
 	font-weight: normal;
 	margin-left: 2em;
 	margin-right: 2em;
 }
 
-#slogan {
-	color: #303030;
-	font-family: 'Roboto', sans-serif;
-	font-size: 36pt;
-	margin-left: 2em;
-	margin-right: 2em;
-}
-
 #opener {
 	color: #303030;
-	font-family: Verdana, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18pt;
 	margin-left: 2em;
 	margin-right: 2em;
@@ -67,31 +68,27 @@ p {
 	margin-right: 2em;
 }
 
-.images {
-	position: center;
-}
-
 #section3 {
 	background-color: #d7061b;
 }
 
 #subtitle1 {
 	color: #303030;
-	font-family: Georgia, serif;
+	font-family: font-weight: 400;
 	margin-left: 2em;
 	margin-right: 2em;
 }
 
 #subtitle2 {
 	color: #fff;
-	font-family: Georgia, serif;
+	font-family: 'Roboto', sans-serif;
 	margin-left: 2em;
 	margin-right: 2em;
 }
 
 #subtitle3 {
 	color: #303030;
-	font-family: Georgia, serif;
+	font-family: 'Roboto', sans-serif;
 	margin-left: 2em;
 	margin-right: 2em;
 }
