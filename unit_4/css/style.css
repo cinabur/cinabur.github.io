@@ -7,7 +7,7 @@ body {
 h1 {
 	color: #303030;
 	font-family: 'Roboto', sans-serif;
-	font-size: 36pt;
+	font-size: 48pt;
 	font-weight: normal;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -15,7 +15,7 @@ h1 {
 
 h2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 24pt;
+	font-size: 30pt;
 	font-weight: normal;
 	margin-left: 300px;
 	margin-right: 300px;
@@ -24,13 +24,13 @@ h2 {
 h3 {
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
-	font-size: 14pt;
+	font-size: 24pt;
 	font-weight: 400;
 }
 
 p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 14pt;
+	font-size: 20pt;
 	font-weight: normal;
 	margin-left: 2em;
 	margin-right: 2em;
@@ -39,7 +39,7 @@ p {
 #opener {
 	color: #303030;
 	font-family: 'Roboto', sans-serif;
-	font-size: 18pt;
+	font-size: 20pt;
 	margin-left: 2em;
 	margin-right: 2em;
 }
@@ -52,7 +52,7 @@ p {
 	color: #fff;
 	font-family: Georgia, serif;
 	font-style: italic;
-	font-size: 16pt;
+	font-size: 20pt;
 	line-height: 1.5em;
 	padding-top: 30px;
 	margin-left: 2em;
@@ -62,7 +62,7 @@ p {
 #quote-author {
 	color: #fff;
 	font-family: Georgia, serif;
-	font-size: 16pt;
+	font-size: 20pt;
 	padding-bottom: 50px;
 	margin-left: 2em;
 	margin-right: 2em;
@@ -91,6 +91,22 @@ p {
 	font-family: 'Roboto', sans-serif;
 	margin-left: 2em;
 	margin-right: 2em;
+}
+
+#cloud{
+	color: #fff;
+}
+
+#security{
+	color: #fff;
+}
+
+#data{
+	color: #fff;
+}
+
+#business{
+	color: #fff;
 }
 
 #form {
