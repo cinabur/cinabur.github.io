@@ -3,6 +3,18 @@
 body {
 	background-color: #fff;
 }
+
+header {
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #ffc675;
+	padding: 20px;
+}
+
 section { }
 section#splash {
 	background:url(../images/hero.jpg);
@@ -51,6 +63,11 @@ section#contact {
 	padding: 6em 5em 5em 3em;
 	background-repeat:no-repeat;
 	background-position: center;
+}
+
+footer {
+	background-color: #ff957e;
+	padding: 20px;
 }
 
 h1 {
