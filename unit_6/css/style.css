@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700,400);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #fff;
+}
+
+header {
+	background-color: #fff;
+	padding: 20px 60px;
+}
+
+nav {
+	background-color: #fff;
+	padding: 20 60px;
+}
+
+section { }
+section#splash {
+	background:url(../images/hero.jpg);
+	background-size: cover; height: 700px;
+	background-repeat:no-repeat;
+	background-position: center;
+	padding: 10em 5em 2em 5em;
+	color: #303030;
+	font-family: 'Roboto', sans-serif;
+}
+
+section#quote {
+	background-color: #d7061b;
+	background-size: cover; height: 250px;
+	padding: 3em 5em 5em 3em;
+	color: #fff;
+	font-family: 'Georgia', serif;
+}
+
+cite {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20pt;
+	font-weight: normal;
+	line-height: 2.5em;
+}
+
+section#why-does-this-matter {
+	background:url(../images/s3-why.jpg);
+	background-size: cover; height: 800px;
+	padding: 6em 5em 5em 3em;
+	background-repeat:no-repeat;
+	background-position: center;
+}
+
+section#solutions {
+	background-color: #d7061b;
+	background-size: cover; height: 1000px;
+	padding: 6em 5em 5em 3em;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+section#contact {
+	background:url(../images/s4-contact.jpg);
+	background-size: cover; height: 800px;
+	background-repeat:no-repeat;
+	margin: 0 auto;
+	padding: 6em 5em 5em 3em;
+}
+
+footer {
+	background-color: #ff957e;
+	padding: 20px;
+}
+
+h1 {
+	color: #303030;
+	font-family: 'Roboto', sans-serif;
+	font-size: 48pt;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30pt;
+	font-weight: normal;
+}
+
+h3 {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24pt;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20pt;
+	font-weight: normal;
+}
+
+#opener {
+	color: #303030;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24pt;
+	line-height: 1.5em;
+}
