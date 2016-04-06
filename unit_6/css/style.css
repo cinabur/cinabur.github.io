@@ -5,32 +5,99 @@ body {
 }
 
 header {
-	background-color: #fff;
-	padding: 20px 60px;
+	padding: 0px;
+}
+
+.logos {
+	float: left;
+	column-width: 50%;
+	padding: 0px;
+}
+
+#pwc-logo {
+	display: block;
+	float: left;
+	padding: 10px;
+	color: #9b9b9d;
+}
+
+#google-logo {
+	display: block;
+	float: left;
+	padding: 10px
 }
 
 nav {
-	background-color: #fff;
-	padding: 20 60px;
+	float: right;
+	padding: 0px;
+}
+
+#home {
+	display: block;
+	float: left;
+	padding: 60px 30px 10px 850px;
+}
+
+#about {
+	display: block;
+	float: left;
+	padding: 60px 30px 10px 0px;
+}
+
+#more {
+	display: block;
+	float: left;
+	padding: 60px 30px 10px 0px;
+}
+
+.clearfix {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	height: 0;
+	clear: both;
 }
 
 section { }
 section#splash {
 	background:url(../images/hero.jpg);
-	background-size: cover; height: 700px;
+	background-size: cover; height: 550px;
 	background-repeat:no-repeat;
 	background-position: center;
-	padding: 10em 5em 2em 5em;
+	padding: 100px;
 	color: #303030;
 	font-family: 'Roboto', sans-serif;
+}
+
+#main-title {
+	float: left;
+	width: 100%;
+}
+
+#intro-text {
+	float: left;
+	width: 50%;
+	padding-top: 40px;
 }
 
 section#quote {
 	background-color: #d7061b;
 	background-size: cover; height: 250px;
-	padding: 3em 5em 5em 3em;
 	color: #fff;
 	font-family: 'Georgia', serif;
+}
+
+#the-quote: {
+	float: left;
+	width: 100%;
+}
+
+blockquote {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20pt;
+	font-weight: normal;
+	float: left;
 }
 
 cite {
@@ -38,20 +105,67 @@ cite {
 	font-size: 20pt;
 	font-weight: normal;
 	line-height: 2.5em;
+	float: left;
 }
 
 section#why-does-this-matter {
 	background:url(../images/s3-why.jpg);
-	background-size: cover; height: 800px;
-	padding: 6em 5em 5em 3em;
+	background-size: cover; height: 750px;
+	padding: 100px;
 	background-repeat:no-repeat;
 	background-position: center;
+}
+
+.section-title {
+	display: block;
+	background: #fff;
+	float: left;
+	width: 100%;
+	margin-top: 180px;
+	padding: 20px;
+}
+
+#why-1 {
+	display: block;
+	background: #fff;
+	float: left;
+	width: 33.33%;
+	height: 240px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20pt;
+	font-weight: normal;
+	padding: 40px;
+
+}
+
+#why-2 {
+	display: block;
+	background: #fff;
+	float: left;
+	width: 33.33%;
+	height: 240px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20pt;
+	font-weight: normal;
+	padding: 40px;
+}
+
+#why-3 {
+	display: block;
+	background: #fff;
+	float: left;
+	width: 33.33%;
+	height: 240px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20pt;
+	font-weight: normal;
+	padding: 40px;
 }
 
 section#solutions {
 	background-color: #d7061b;
 	background-size: cover; height: 1000px;
-	padding: 6em 5em 5em 3em;
+	padding: 100px;
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 }
@@ -65,8 +179,7 @@ section#contact {
 }
 
 footer {
-	background-color: #ff957e;
-	padding: 20px;
+	padding: 20 100px;
 }
 
 h1 {
@@ -98,6 +211,6 @@ p {
 #opener {
 	color: #303030;
 	font-family: 'Roboto', sans-serif;
-	font-size: 24pt;
-	line-height: 1.5em;
+	font-size: 20pt;
+	line-height: 1.25em;
 }
