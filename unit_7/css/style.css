@@ -123,7 +123,7 @@ section#why-does-this-matter {
 	background-position: center;
 }
 
-.section-title {
+#why-title {
 	display: block;
 	background: rgba(255,255,255,0.7);
 	float: left;
@@ -132,7 +132,7 @@ section#why-does-this-matter {
 	padding: 20px;
 }
 
-#why-1 {
+.why {
 	display: block;
 	background: rgba(255,255,255,0.7);
 	float: left;
@@ -143,46 +143,60 @@ section#why-does-this-matter {
 	font-weight: normal;
 	padding: 40px;
 
-}
-
-#why-2 {
-	display: block;
-	background: rgba(255,255,255,0.7);
-	float: left;
-	width: 33.33%;
-	height: 240px;
-	font-family: 'Roboto', sans-serif;
-	font-size: 20pt;
-	font-weight: normal;
-	padding: 40px;
-}
-
-#why-3 {
-	display: block;
-	background: rgba(255,255,255,0.7);
-	float: left;
-	width: 33.33%;
-	height: 240px;
-	font-family: 'Roboto', sans-serif;
-	font-size: 20pt;
-	font-weight: normal;
-	padding: 40px;
 }
 
 section#solutions {
 	background-color: #d7061b;
-	background-size: cover; height: 1000px;
+	background-size: cover; height: 800px;
 	padding: 100px;
 	color: #fff;
+}
+
+#solutions-title {
+	display: block;
+	float: left;
+	width: 100%;
 	font-family: 'Roboto', sans-serif;
+	padding: 0px 20px 40px 20px;
+}
+
+.icons {
+	display: block;
+	background: rgba(255,255,255,0.25);
+	float: left;
+	width: 25%; 
+	height: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20pt;
+	font-weight: normal;
+	padding: 40px;
+}
+
+.solution {
+	display: block;
+	float: left;
+	width: 25%;
+	height: 240px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20pt;
+	font-weight: normal;
+	padding: 40px 10px 20px 20px;
 }
 
 section#contact {
 	background:url(../images/s4-contact.jpg);
-	background-size: cover; height: 800px;
+	background-size: cover; height: 700px;
 	background-repeat:no-repeat;
 	margin: 0 auto;
 	padding: 6em 5em 5em 3em;
+}
+
+#contact-us {
+	display: block;
+	background: rgba(255,255,255,0.7);
+	float: left;
+	width: 33.33%;
+	height: 240px;
 }
 
 footer {
@@ -211,7 +225,7 @@ h3 {
 
 p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 20pt;
+	font-size: 16pt;
 	font-weight: normal;
 }
 

@@ -2,6 +2,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #fff;
+	font-size: 16px;
 }
 
 header {
@@ -24,13 +25,13 @@ header {
 
 #pwc-logo {
 	float: left;
-	padding: 10px;
+	padding: .7em;
 	color: #9b9b9d;
 }
 
 #google-logo {
 	float: left;
-	padding: 10px
+	padding: .55em;
 }
 
 nav {
@@ -41,19 +42,19 @@ nav {
 #home {
 	display: block;
 	float: left;
-	padding: 60px 30px 10px 850px;
+	padding: 3.05em 1em 1em 1em;
 }
 
 #about {
 	display: block;
 	float: left;
-	padding: 60px 30px 10px 0px;
+	padding: 3.05em 1em 1em 1em;
 }
 
 #more {
 	display: block;
 	float: left;
-	padding: 60px 30px 10px 0px;
+	padding: 3.05em 1em 1em 1em;
 }
 
 .clearfix {
@@ -68,10 +69,10 @@ nav {
 section { }
 section#splash {
 	background:url(../images/hero.jpg);
-	background-size: cover; height: 550px;
+	background-size: cover; height: 30em;
 	background-repeat:no-repeat;
 	background-position: center;
-	padding: 100px;
+	padding: 5.5em;
 	color: #303030;
 	font-family: 'Roboto', sans-serif;
 }
@@ -83,13 +84,13 @@ section#splash {
 
 #intro-text {
 	float: left;
-	width: 50%;
-	padding-top: 40px;
+	width: 70%;
+	padding-top: 30px;
 }
 
 section#quote {
 	background-color: #d7061b;
-	background-size: cover; height: 250px;
+	background-size: cover; height: 13em;
 	color: #fff;
 	font-family: 'Georgia', serif;
 }
@@ -101,15 +102,15 @@ section#quote {
 
 blockquote {
 	font-family: 'Roboto', sans-serif;
-	font-size: 20pt;
+	font-size: 1.5em;
 	font-weight: normal;
 	float: left;
-	padding: 2em 3.5em;
+	padding: 1.75em 3.5em;
 }
 
 cite {
 	font-family: 'Roboto', sans-serif;
-	font-size: 20pt;
+	font-size: .75em;
 	font-weight: normal;
 	line-height: 2.5em;
 	float: left;
@@ -117,72 +118,84 @@ cite {
 
 section#why-does-this-matter {
 	background:url(../images/s3-why.jpg);
-	background-size: cover; height: 750px;
-	padding: 100px;
+	background-size: cover; height: 30em;
+	padding: 5.5em;
 	background-repeat:no-repeat;
 	background-position: center;
 }
 
-.section-title {
+#why-title {
 	display: block;
 	background: rgba(255,255,255,0.7);
 	float: left;
 	width: 100%;
-	margin-top: 180px;
-	padding: 20px;
+	height: 3.5em;
+	margin-top: 5.5em;
+	padding: 1em 1.5em 0em 1.5em;
 }
 
-#why-1 {
+.why {
 	display: block;
 	background: rgba(255,255,255,0.7);
 	float: left;
 	width: 33.33%;
-	height: 240px;
+	height: 9.5em;
 	font-family: 'Roboto', sans-serif;
-	font-size: 20pt;
-	font-weight: normal;
-	padding: 40px;
+	padding: 1em 1.5em 1.5em 1.5em;
 
-}
-
-#why-2 {
-	display: block;
-	background: rgba(255,255,255,0.7);
-	float: left;
-	width: 33.33%;
-	height: 240px;
-	font-family: 'Roboto', sans-serif;
-	font-size: 20pt;
-	font-weight: normal;
-	padding: 40px;
-}
-
-#why-3 {
-	display: block;
-	background: rgba(255,255,255,0.7);
-	float: left;
-	width: 33.33%;
-	height: 240px;
-	font-family: 'Roboto', sans-serif;
-	font-size: 20pt;
-	font-weight: normal;
-	padding: 40px;
 }
 
 section#solutions {
 	background-color: #d7061b;
-	background-size: cover; height: 1000px;
-	padding: 100px;
+	background-size: cover; height: 50em;
+	padding: 5.5em;
 	color: #fff;
+}
+
+#solutions-title {
+	display: block;
+	float: left;
+	width: 100%;
 	font-family: 'Roboto', sans-serif;
+	padding: 0em 1.5em 1.5em 1.5em;
+}
+
+.icons {
+	display: block;
+	background: rgba(255,255,255,0.25);
+	float: left;
+	vertical-align: center;
+	align-items: middle;
+	width: 25%; 
+	height: 11em;
+	padding: 1.5em;
+}
+
+.solution {
+	display: block;
+	float: left;
+	width: 25%;
+	height: 240px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	padding: 1em 1.5em;
 }
 
 section#contact {
 	background:url(../images/s4-contact.jpg);
-	background-size: cover; height: 800px;
+	background-size: cover; height: 700px;
 	background-repeat:no-repeat;
 	margin: 0 auto;
 	padding: 6em 5em 5em 3em;
+}
+
+#contact-us {
+	display: block;
+	background: rgba(255,255,255,0.7);
+	float: left;
+	width: 33.33%;
+	height: 240px;
 }
 
 footer {
@@ -192,26 +205,26 @@ footer {
 h1 {
 	color: #303030;
 	font-family: 'Roboto', sans-serif;
-	font-size: 48pt;
+	font-size: 3em;
 	font-weight: normal;
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 30pt;
+	font-size: 2em;
 	font-weight: normal;
 }
 
 h3 {
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
-	font-size: 24pt;
+	font-size: 1.5em;
 	font-weight: 400;
 }
 
 p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 20pt;
+	font-size: 1em;
 	font-weight: normal;
 }
 
@@ -221,3 +234,13 @@ p {
 	font-size: 20pt;
 	line-height: 1.25em;
 }
+
+@media only screen and (max-width: 800px) {
+  nav {
+  	float: none;
+  }
+ }
+
+ @media only screen and (max-width: 480px) {
+
+ }
