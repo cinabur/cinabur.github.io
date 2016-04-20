@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700,400);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #fff;
+	font-size: 18px;
+}
+
+h1 {
+	color: #303030;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+h3 {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+
+}
+
+header {
+
+}
+
+.logos {
+	float: left;
+	column-width: 50%;
+}
+
+#logo1 {
+	display: inline-block;
+}
+
+#logo2 {
+	display: inline-block;
+}
+
+#pwc-logo {
+	float: left;
+	padding: .7em 1em 1em 5.5em;
+	color: #9b9b9d;
+}
+
+#google-logo {
+	float: left;
+	padding: .55em;
+}
+
+nav {
+	float: right;
+}
+
+#home {
+	display: block;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: .75em;
+	padding: 4.5em 1em 1em 1em;
+}
+
+#about {
+	display: block;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: .75em;
+	padding: 4.5em 1em 1em 1em;
+}
+
+#more {
+	display: block;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: .75em;
+	padding: 4.5em 5.5em 1em 1em;
+}
+
+.clearfix {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	height: 0;
+	clear: both;
+}
+
+section { }
+section#splash {
+	background:url(../images/hero.jpg);
+	background-size: cover; height: 30em;
+	background-repeat:no-repeat;
+	background-position: center;
+	padding: 5.5em;
+	color: #303030;
+	font-family: 'Roboto', sans-serif;
+}
+
+#main-title {
+	float: left;
+	width: 100%;
+}
+
+#intro-text {
+	float: left;
+	width: 50%;
+	padding-top: 2em;
+}
+
+section#quote {
+	background-color: #d7061b;
+	background-size: cover; height: 12em;
+	color: #fff;
+	font-family: 'Georgia', serif;
+}
+
+#the-quote: {
+	float: left;
+	width: 100%;
+}
+
+blockquote {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	float: left;
+	padding: 1.75em 3.5em;
+}
+
+cite {
+	font-family: 'Roboto', sans-serif;
+	font-size: .75em;
+	font-weight: normal;
+	line-height: 2.5em;
+	float: left;
+}
+
+section#why-does-this-matter {
+	background:url(../images/s3-why.jpg);
+	background-size: cover; height: 37em;
+	padding: 11em 5.5em 2em 5.5em;
+	background-repeat:no-repeat;
+	background-position: center;
+}
+
+#why-title {
+	display: block;
+	background: rgba(255,255,255,0.7);
+	float: left;
+	width: 100%;
+	height: 3.5em;
+	margin-top: 5.5em;
+	padding: 1em 1.5em .75em 1.5em;
+}
+
+.why {
+	display: block;
+	background: rgba(255,255,255,0.7);
+	float: left;
+	width: 33.33%;
+	height: 8.5em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.15em;
+	padding: 1em 1.5em 1.5em 1.5em;
+
+}
+
+section#solutions {
+	background-color: #d7061b;
+	background-size: cover; height: 37em;
+	padding: 5.5em;
+	color: #fff;
+}
+
+#solutions-title {
+	display: block;
+	float: left;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	padding: 0em 1.5em 1.5em 1.5em;
+}
+
+.icons {
+	display: block;
+	background: rgba(255,255,255,0.25);
+	float: left;
+	vertical-align: center;
+	align-items: middle;
+	width: 25%; 
+	height: 11em;
+	padding: 1.5em;
+}
+
+.solution {
+	display: block;
+	float: left;
+	width: 25%;
+	height: 240px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	padding: 1em 1.5em;
+}
+
+section#contact {
+	background:url(../images/s4-contact.jpg);
+	background-size: cover; height: 30em;
+	background-repeat:no-repeat;
+	margin: 0 auto;
+	padding: 6em 5em 5em 3em;
+}
+
+#contact-us {
+	display: block;
+	background: rgba(255,255,255,0.7);
+	float: left;
+	width: 33.33%;
+	height: 25em;
+	margin: 0em;
+	padding: 1.5em;
+}
+
+footer {
+	padding: 20 100px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  nav {
+  	float: none;
+  }
+ }
+
+ @media only screen and (max-width: 480px) {
+
+ }
