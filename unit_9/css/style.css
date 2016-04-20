@@ -207,7 +207,7 @@ section#solutions {
 	display: block;
 	float: left;
 	width: 25%;
-	height: 240px;
+	height: 13em;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
 	font-weight: normal;
@@ -233,7 +233,10 @@ section#contact {
 }
 
 footer {
-	padding: 20 100px;
+	padding: 1em 1.5em;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: .75em;
 }
 
 

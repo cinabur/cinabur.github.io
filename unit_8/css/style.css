@@ -2,17 +2,43 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #fff;
-	font-size: 16px;
+	font-size: 18px;
+}
+
+h1 {
+	color: #303030;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+h3 {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+
 }
 
 header {
-	padding: 0px;
+
 }
 
 .logos {
 	float: left;
 	column-width: 50%;
-	padding: 0px;
 }
 
 #logo1 {
@@ -25,7 +51,7 @@ header {
 
 #pwc-logo {
 	float: left;
-	padding: .7em;
+	padding: .7em 1em 1em 5.5em;
 	color: #9b9b9d;
 }
 
@@ -36,25 +62,30 @@ header {
 
 nav {
 	float: right;
-	padding: 0px;
 }
 
 #home {
 	display: block;
 	float: left;
-	padding: 3.05em 1em 1em 1em;
+	font-family: 'Roboto', sans-serif;
+	font-size: .75em;
+	padding: 4.5em 1em 1em 1em;
 }
 
 #about {
 	display: block;
 	float: left;
-	padding: 3.05em 1em 1em 1em;
+	font-family: 'Roboto', sans-serif;
+	font-size: .75em;
+	padding: 4.5em 1em 1em 1em;
 }
 
 #more {
 	display: block;
 	float: left;
-	padding: 3.05em 1em 1em 1em;
+	font-family: 'Roboto', sans-serif;
+	font-size: .75em;
+	padding: 4.5em 5.5em 1em 1em;
 }
 
 .clearfix {
@@ -84,13 +115,13 @@ section#splash {
 
 #intro-text {
 	float: left;
-	width: 70%;
-	padding-top: 30px;
+	width: 50%;
+	padding-top: 2em;
 }
 
 section#quote {
 	background-color: #d7061b;
-	background-size: cover; height: 13em;
+	background-size: cover; height: 12em;
 	color: #fff;
 	font-family: 'Georgia', serif;
 }
@@ -118,8 +149,8 @@ cite {
 
 section#why-does-this-matter {
 	background:url(../images/s3-why.jpg);
-	background-size: cover; height: 30em;
-	padding: 5.5em;
+	background-size: cover; height: 37em;
+	padding: 11em 5.5em 2em 5.5em;
 	background-repeat:no-repeat;
 	background-position: center;
 }
@@ -131,7 +162,7 @@ section#why-does-this-matter {
 	width: 100%;
 	height: 3.5em;
 	margin-top: 5.5em;
-	padding: 1em 1.5em 0em 1.5em;
+	padding: 1em 1.5em .75em 1.5em;
 }
 
 .why {
@@ -139,15 +170,16 @@ section#why-does-this-matter {
 	background: rgba(255,255,255,0.7);
 	float: left;
 	width: 33.33%;
-	height: 9.5em;
+	height: 8.5em;
 	font-family: 'Roboto', sans-serif;
+	font-size: 1.15em;
 	padding: 1em 1.5em 1.5em 1.5em;
 
 }
 
 section#solutions {
 	background-color: #d7061b;
-	background-size: cover; height: 50em;
+	background-size: cover; height: 37em;
 	padding: 5.5em;
 	color: #fff;
 }
@@ -184,7 +216,7 @@ section#solutions {
 
 section#contact {
 	background:url(../images/s4-contact.jpg);
-	background-size: cover; height: 700px;
+	background-size: cover; height: 30em;
 	background-repeat:no-repeat;
 	margin: 0 auto;
 	padding: 6em 5em 5em 3em;
@@ -195,45 +227,16 @@ section#contact {
 	background: rgba(255,255,255,0.7);
 	float: left;
 	width: 33.33%;
-	height: 240px;
+	height: 25em;
+	margin: 0em;
+	padding: 1.5em;
 }
 
 footer {
 	padding: 20 100px;
 }
 
-h1 {
-	color: #303030;
-	font-family: 'Roboto', sans-serif;
-	font-size: 3em;
-	font-weight: normal;
-}
 
-h2 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 2em;
-	font-weight: normal;
-}
-
-h3 {
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.5em;
-	font-weight: 400;
-}
-
-p {
-	font-family: 'Roboto', sans-serif;
-	font-size: 1em;
-	font-weight: normal;
-}
-
-#opener {
-	color: #303030;
-	font-family: 'Roboto', sans-serif;
-	font-size: 20pt;
-	line-height: 1.25em;
-}
 
 @media only screen and (max-width: 800px) {
   nav {
